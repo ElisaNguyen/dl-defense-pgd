@@ -1,5 +1,5 @@
 # Defending against Projected Gradient Descent
-A project in the frame of the Deep Learning course at the University of Twente. Run the notebooks as they are to reproduce the project. 
+A project in the frame of the Deep Learning course at the University of Twente by <a href="https://github.com/michaelbui-utwente">Michael Bui</a>, <a href="https://github.com/Kjnfvoadhs95">Kevin Folkertsma</a>, and <a href="https://github.com/ElisaNguyen">Elisa Nguyen</a>. Run the notebooks as they are to reproduce the project. 
 
 ### Abstract
 Recent studies have shown that minor perturbations in the input space may cause neural networks to misclassify data samples at a high confidence level. The efficacy of these adversarial attacks, despite the high perceptual similarity between adversarial examples and natural data, expose the network's flawed decision boundaries. To address this problem, this project inspects a convolutional neural network's adversarial robustness against projected gradient descent (PGD). Adversarial training and data augmentation techniques are studied as defensive mechanisms against PGD. It appears that adversarial training serves as an effective defense against PGD, while data augmentation minimally contributes to the model's adversarial robustness.
